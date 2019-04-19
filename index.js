@@ -1,34 +1,19 @@
 module.exports = {
-    
-    globals: {
-        MyGlobal: true
+	"extends": "airbnb-base",
+	env: {
+		node: true,
+		es6: true,
     },
     parserOptions: {
         ecmaVersion: 6,
         sourceType: 'module',
         ecmaFeatures: {
-            arrowFunctions: true,
-            defaultParams: true,
-            destructuring: true,
-            forOf: true,
-            generators: true,
-            modules: true,
-            objectLiteralComputedProperties: true,
-            objectLiteralDuplicateProperties: true,
-            objectLiteralShorthandMethods: true,
-            objectLiteralShorthandProperties: true,
-            octalLiterals: true,
-            spread: true,
-            superInFunctions: true,
-            templateStrings: true,
-            unicodeCodePointEscapes: true,
-            globalReturn: true,
-            jsx: true
-        }
+          defaultParams: true,
+          spread: true,
+        },
     },
-
-    rules: {
-        'no-extra-semi':"error",
-        'no-var':"error"
+	rules: {
+        'no-extra-semi':'error',
+        'no-var':'error'
     }
-}
+};
