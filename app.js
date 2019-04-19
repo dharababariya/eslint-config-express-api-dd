@@ -1,20 +1,21 @@
-// function foo() {
-//   // ...
-// }
-
-// // bad
-// const foo = function () {
-//   // ...
-// };
-
-// const totalScore = new String(this.reviewScore);
-
-// // bad
-// const totalScore = this.reviewScore + ''; 
-
-// // bad
-// const totalScore = this.reviewScore.toString(); 
+function foo() {
+  // ...
+  const abc=abc;
+}
 
 // bad
-var foo = happy;;
-const foo = help;
+const fso = function () {
+  // ...
+};
+
+const totalScore = new String(this.reviewScore);
+
+// bad
+const totalaScore = this.reviewScore + ''; 
+
+// bad
+const totaalScore = this.reviewScore.toString(); 
+
+// bad
+var fowo = happy;;
+const fowuo = help;
